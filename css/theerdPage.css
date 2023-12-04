@@ -1,0 +1,259 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #141414 !important;
+  color: whitesmoke !important;
+}
+
+h3{
+  padding: 1% 3%;
+}
+
+h4{
+  padding: 4% 3% 0.5% 3%;
+}
+.carousel-inner img {
+    width: min(100%);
+    
+  }
+
+
+  .mainContainer{
+    padding: 0px !important;
+  }
+
+  .navbar{
+    background-color: black !important;
+    padding: .500% 3% !important;
+  }
+
+  .navbar-brand{
+    font-size: 30px !important;
+    letter-spacing: 3px;
+  }
+
+img:hover {
+    transition: 3s; 
+   scale: 1.8;
+    
+  }
+
+  
+
+  /* SliderSviper */
+
+  .swiper {
+    width: 100%;
+    /* height: 20dvh; */
+    margin-top: 4px;
+    box-shadow: 0 0 2px whitesmoke,
+    0 0 15px whitesmoke,
+    0 0 20px whitesmoke,
+    0 0 30px whitesmoke
+    ;
+  }
+
+  .image-slider-main{
+    height:100%;
+    padding: 30px 0 70px 0;
+    /* max-height: 40vh; */
+  }
+
+  .image-slider__wrapper_main{
+
+  }
+
+  .image-slider__wrapper_main img{
+    
+  }
+
+.image-slider{
+  height: 100%;
+  padding: 30px 0 70px 0;
+  /* max-height: 40vh; */
+}
+
+.image-slider__wrapper{
+
+}
+
+.image-slider__slide{
+
+}
+
+.image-slider__image{
+    text-align: center;
+    
+}
+
+.image-slider__image img{
+  max-width: 100%;
+}
+
+.sale{
+  position: absolute;
+  margin: 2% 3%;
+  width: 100px;
+  height: 30px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+	0%
+	{
+		box-shadow: 0 0 10px #dae2e2,
+		0 0 20px #dae2e2,
+		0 0 40px #dae2e2,
+		0 0 80px #dae2e2,
+		0 0 160px #dae2e2
+		;
+    scale: 1.1;
+	}
+
+  50%{
+    box-shadow: 0 0 10px brown,
+		0 0 20px brown,
+		0 0 40px brown,
+		0 0 80px brown,
+		0 0 160px brown
+		;
+    scale: 1.2;
+  }
+
+	100%
+	{
+		box-shadow: 0 0 10px #dae2e2,
+		0 0 20px #dae2e2,
+		0 0 40px #dae2e2,
+		0 0 80px #dae2e2,
+		0 0 160px #dae2e2
+		;
+    scale: 1.1;
+	}
+}
+
+
+.rowBaner{
+  height: 55vh;
+}
+
+
+.banerLeft{
+  padding: 3% 1% 0 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banerLeftContent{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/pexels-mark-1080721.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: all .500s ease;
+  border-radius: 18px;
+  box-shadow: 0 0 2px whitesmoke,
+    0 0 15px whitesmoke,
+    0 0 20px whitesmoke,
+    0 0 30px whitesmoke
+    ;
+}
+
+.banerLeftContent:hover{
+   opacity: 0.5;
+   transform: perspective(800);
+   transform: scale(1.02);
+}
+
+.banerRight{
+  padding: 3% 1% 0 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banerRightContent{
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/beautiful-shot-modern-house-kitchen.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: all .500s ease;
+  border-radius: 18px;
+  box-shadow: 0 0 2px whitesmoke,
+    0 0 15px whitesmoke,
+    0 0 20px whitesmoke,
+    0 0 30px whitesmoke
+    ;
+}
+
+
+.banerRightContent:hover{
+  opacity: 0.5;
+  transform: perspective(800);
+  transform: scale(1.02);
+}
+
+.bannerFooter{
+  margin: 3% 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.bannerFooter img{
+  width: 98%;
+  filter: grayscale();
+  border-radius: 18px;
+  box-shadow: 0 0 2px whitesmoke,
+    0 0 15px whitesmoke,
+    0 0 20px whitesmoke,
+    0 0 30px whitesmoke
+    ;
+}
+
+.bannerFooter img:hover{
+  scale: 1.03;
+}
+
+.footer{
+  margin-top: 3%;
+}
+
+h6{
+  font-weight: 700 !important;
+}
+
+.footerContentLeft{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.footerContentRight{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.link{
+  font-size: 14px;
+  font-weight: 400;
+  color: #606060;
+}
+
+.link:hover{
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.image-slider-main{
+  border-radius: 18px 18px 0px 0px;
+  padding: 0 1%;
+}
